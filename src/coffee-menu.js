@@ -1,4 +1,9 @@
-
+import espressoImg from './img/espresso.webp';
+import latteImg from './img/latte.webp';
+import americanoImg from './img/americano.webp';
+import waffleImg from './img/waffle.webp';
+import cinnamonImg from './img/cinnamon-roll.webp'
+import cheesecakeImg from './img/cheesecake.webp'
 
 class Coffee {
 
@@ -20,13 +25,13 @@ class Food{
 
 }
 
-const espresso = new Coffee('Espresso', 'P100', '/src/img/espresso.webp');
-const latte = new Coffee('Latte', 'P140', '/src/img/latte.webp');
-const americano = new Coffee('Americano','P120' ,'/src/img/americano.webp');
+const espresso = new Coffee('Espresso', 'P100', espressoImg);
+const latte = new Coffee('Latte', 'P140', latteImg);
+const americano = new Coffee('Americano','P120' , americanoImg);
 
-const waffle = new Food("Waffle", 'P80', '/src/img/waffle.webp');
-const cinnamonRoll = new Food("Cinnamon Roll", 'P80', '/src/img/cinnamon-roll.webp');
-const cheeseCake = new Food("Cheesecake", 'P80', '/src/img/cheesecake.webp');
+const waffle = new Food("Waffle", 'P80', waffleImg);
+const cinnamonRoll = new Food("Cinnamon Roll", 'P80', cinnamonImg);
+const cheeseCake = new Food("Cheesecake", 'P80', cheesecakeImg);
 
 
 const menu = [espresso,latte,americano,waffle,cinnamonRoll,cheeseCake];

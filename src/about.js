@@ -1,4 +1,4 @@
-
+import aboutImage from './img/about-img.webp'
 
 function about(){
 
@@ -23,7 +23,7 @@ function about(){
 
 
   const aboutImg = document.createElement("img");
-  aboutImg.src = '/src/img/bg-img-coffee.webp'
+  aboutImg.src = aboutImage;
 
   aboutContentContainer.appendChild(aboutImg);
   aboutContentContainer.appendChild(aboutDetail);
