@@ -6,12 +6,14 @@ module.exports = {
   output: {
     filename: 'main.js',
     path: path.resolve(__dirname, 'dist'),
-    assetModuleFilename: 'img/[name][ext]', // Output images directly to dist/img folder
+    publicPath: '/odin-coffee/', 
+    assetModuleFilename: 'img/[name][ext]', 
   },
   plugins: [
     new HtmlWebpackPlugin({
       title: "Bill's Cafe",
       template: 'src/index.html'
+      
     })
   ],
   module: {
