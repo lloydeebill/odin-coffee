@@ -29,7 +29,7 @@ ul, ol {
 
 
 html {
-  height: 100vw;
+  height: 100%;
   background-color: whitesmoke;
 }
 
@@ -46,7 +46,7 @@ header {
   flex-direction: column;
   width: 100%;
   height: 22vw;
-  background-image: url(hero-img.webp);
+  background-image: url(/src/img/hero-img.webp);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -59,7 +59,7 @@ nav {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 50px
+  gap: 30px
 
 }
 
@@ -96,5 +96,25 @@ button:hover {
   font-weight: bolder;
   color: black;
 
-  margin-top: 5px;
+
+  margin: 50px;
+
 }
+
+.best-seller-container {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.best-seller-title {
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+img { 
+  width: 200px;
+  height: 200px;
+}
+
