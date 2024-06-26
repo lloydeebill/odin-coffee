@@ -80,9 +80,9 @@ button {
   height: 70px;
   background-color: #8b4513;
   color: white;
-  border-radius: 45%;
+  border-radius: 5%;
   border: none;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 button:hover {
@@ -94,7 +94,7 @@ button:hover {
 .headline {
   font-size: 2.5vw;
   font-weight: bolder;
-  color: black;
+  color: #8b4513;
 
 
   margin: 50px;
@@ -118,3 +118,32 @@ img {
   height: 200px;
 }
 
+.menu-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.all-menu-container {
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+  grid-template-rows: auto;
+  gap: 12px;
+
+}
+
+.food-card , .coffee-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.menu-title {
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+
+}
