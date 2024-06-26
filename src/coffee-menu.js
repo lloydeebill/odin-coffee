@@ -28,7 +28,6 @@ class Food{
 const espresso = new Coffee('Espresso', 'P100', espressoImg);
 const latte = new Coffee('Latte', 'P140', latteImg);
 const americano = new Coffee('Americano','P120' , americanoImg);
-
 const waffle = new Food("Waffle", 'P80', waffleImg);
 const cinnamonRoll = new Food("Cinnamon Roll", 'P80', cinnamonImg);
 const cheeseCake = new Food("Cheesecake", 'P80', cheesecakeImg);
