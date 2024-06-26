@@ -13,7 +13,6 @@ module.exports = {
     new HtmlWebpackPlugin({
       title: "Bill's Cafe",
       template: 'src/index.html'
-      
     })
   ],
   module: {
